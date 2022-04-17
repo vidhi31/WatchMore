@@ -1,10 +1,5 @@
 https://use.fontawesome.com/releases/v5.8.2/css/all.css
-/* global styles*/
-/*:root{
-    --primary-color: #e50914;  
-      --dark-color: #141414;  
-      --light-color: #f4f4f4;
-}*/
+
 *{  
     box-sizing: border-box;  
     margin: 0;  
@@ -125,7 +120,7 @@ img {
 .WatchMore-top {  
     position: relative;  
     z-index: 2;  
-    height: 45px;  
+    height: 120px;  
 }  
 .WatchMore img {  
     width: 400px;  
@@ -137,8 +132,8 @@ img {
 } 
 .WatchMore-top a{
     position: absolute;  
-    top: 50%;  
-    right: 0;  
+    top: 60%;  
+    right:0;  
     transform: translate(-50%, -50%);
 }
 .WatchMore-content {  
@@ -165,7 +160,7 @@ img {
     font-weight: 400;  
     font-size: 3px;  
     line-height: 1.25;  
-    margin: 5px;  
+    margin: 1.5px;  
 }  
 /* tabs */
 .tabs {  
