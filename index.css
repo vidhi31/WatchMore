@@ -85,7 +85,9 @@ img {
     opacity: 0.9;  
 }  
 .btn-rounded {  
-    border-radius: 5px;  
+    border-radius: 5px; 
+    display: flex; 
+    flex-wrap: wrap;
 }  
 .btn-xl {  
     font-size: 120 px;  
@@ -106,6 +108,9 @@ img {
     position: relative;  
     background: url("https://images.unsplash.com/photo-1482160549825-59d1b23cb208?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fG1vdmllcyUyMGNvbGxhZ2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
 } 
+.Wachmore-content h1{
+    margin: 50px;
+}
 .WatchMore::after {  
     content: '';  
     position: absolute;  
@@ -120,7 +125,7 @@ img {
 .WatchMore-top {  
     position: relative;  
     z-index: 2;  
-    height: 90px;  
+    height: 45px;  
 }  
 .WatchMore img {  
     width: 400px;  
@@ -151,8 +156,8 @@ img {
 .Wachmore-content h1 {  
     font-weight: 900;  
     font-size:300px;
-    line-height: 1.1;  
-    margin: 15px;  
+    line-height: 1.5;  
+    margin: 50px;  
 }  
 .showcase-content p {  
     text-transform: uppercase;  
@@ -165,7 +170,7 @@ img {
 /* tabs */
 .tabs {  
     background: var(--dark-color);  
-    padding-top: 1rem;  
+    padding-top: 0.1rem;  
     border-bottom: 3px solid #3d3d3d;  
     border-right: none;  
 } 
