@@ -288,7 +288,7 @@ img {
     padding: 1rem 1.2rem;  
     border-radius: 5px;  
 }
-@media (max-width: 960px) {  
+@media (max-width: 1080px) {  
            .showcase {  
            height: 70vh;  
       }  
