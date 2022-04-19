@@ -1,4 +1,4 @@
-https://use.fontawesome.com/releases/v5.8.2/css/all.css
+/*https://use.fontawesome.com/releases/v5.8.2/css/all.css*/
 
 *{  
     box-sizing: border-box;  
@@ -94,8 +94,10 @@ img {
     padding: 0.8rem 1.3rem;  
     text-transform: uppercase;  
 }  
-.btn-icon {  
+.btn-icon { 
+    position: fixed; 
     margin-left: 1rem;  
+
 }
 .WatchMore {  
     width: 100%;  
@@ -288,7 +290,10 @@ img {
     padding: 1rem 1.2rem;  
     border-radius: 5px;  
 }
-@media (max-width: 480px) {  
+[class*="col-"] {
+    width: 100%;
+  }
+@media only screen and (max-width: px) {  
            .showcase {  
            height: 70vh;  
       }  
