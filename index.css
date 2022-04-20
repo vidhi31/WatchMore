@@ -185,7 +185,7 @@ img {
 }
 .tabs p {  
     font-size: 1.2rem;  
-    padding-top: 0.5rem;  
+    padding-top: 0.5rem; 
 }  
 .tabs .container > div {  
     padding: 1.5rem 0;  
@@ -288,11 +288,8 @@ img {
     border: 1px solid rgb(95, 89, 89);  
     padding: 1rem 1.2rem;  
     border-radius: 5px;  
-}
-[class*="col-"] {
-    width: 100%;
-  }
-@media only screen and (max-width: px) {  
+}  
+@media (max-width: 960px) {  
            .showcase {  
            height: 70vh;  
       }  
